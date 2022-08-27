@@ -110,7 +110,7 @@ const Header: FC = () => {
               if (window.location.pathname !== "/") Router.push("/");
             }}
           >
-            <img src="/images/logo.svg" alt="Bloop URL Shortening" />
+            <img src="/images/logo.png" alt="Bloop URL Shortening" />
             Bloop
           </a>
         </LogoImage>
