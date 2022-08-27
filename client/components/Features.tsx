@@ -15,7 +15,7 @@ const Features = () => (
     backgroundColor={Colors.FeaturesBg}
   >
     <H3 fontSize={[26, 28]} mb={72} light>
-      Kutting edge features.
+      Bloop them to anywhere.
     </H3>
     <Flex
       width={1200}
@@ -28,14 +28,11 @@ const Features = () => (
         Create, protect and delete your links and monitor them with detailed
         statistics.
       </FeaturesItem>
-      <FeaturesItem title="Custom domain" icon="shuffle">
-        Use custom domains for your links. Add or remove them for free.
-      </FeaturesItem>
       <FeaturesItem title="API" icon="zap">
-        Use the provided API to create, delete, and get URLs from anywhere.
+        Use the API to create, delete, and get URLs from anywhere.
       </FeaturesItem>
-      <FeaturesItem title="Free &amp; open source" icon="heart">
-        Completely open source and free. You can host it on your own server.
+      <FeaturesItem title="Free" icon="heart">
+        Completely free
       </FeaturesItem>
     </Flex>
   </ColCenterH>
