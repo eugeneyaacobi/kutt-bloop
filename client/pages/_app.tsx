@@ -82,7 +82,7 @@ class MyApp extends App<any> {
       <>
         <Head>
           <title>
-            {publicRuntimeConfig.SITE_NAME} | Modern Open Source URL shortener.
+            bloop.to | Free URL Shortening.
           </title>
         </Head>
         <StoreProvider store={this.store}>
