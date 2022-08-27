@@ -110,8 +110,8 @@ const Header: FC = () => {
               if (window.location.pathname !== "/") Router.push("/");
             }}
           >
-            <img src="/images/logo.svg" alt="" />
-            {publicRuntimeConfig.SITE_NAME}
+            <img src="/images/logo.svg" alt="Bloop URL Shortening" />
+            Bloop
           </a>
         </LogoImage>
         {!isMobile && (
@@ -144,8 +144,8 @@ const Header: FC = () => {
         <Li>
           <Flex display={["flex", "none"]}>
             <Link href="/report">
-              <ALink href="/report" title="Report" fontSize={[14, 16]}>
-                Report
+              <ALink href="/report" title="Report Abuse" fontSize={[14, 16]}>
+                Report Abuse
               </ALink>
             </Link>
           </Flex>

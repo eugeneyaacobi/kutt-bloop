@@ -22,7 +22,7 @@ const Features = () => (
       maxWidth="100%"
       flex="1 1 auto"
       justifyContent="center"
-      flexWrap={["wrap", "wrap", "wrap", "nowrap"]}
+      flexWrap={["wrap", "wrap", "nowrap"]}
     >
       <FeaturesItem title="Managing links" icon="edit">
         Create, protect and delete your links and monitor them with detailed
