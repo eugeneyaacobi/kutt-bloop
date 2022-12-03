@@ -149,7 +149,6 @@ const Header: FC = () => {
               </Link>
             </Flex>
           </Li>
-        )}
         {logout}
         {settings}
         {login}
