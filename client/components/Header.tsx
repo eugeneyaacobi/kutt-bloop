@@ -146,6 +146,7 @@ const Header: FC = () => {
               <ALink href="/report" title="Report Abuse" fontSize={[14, 16]}>
                 Report Abuse
               </ALink>
+              </Link>
             </Flex>
           </Li>
         )}
