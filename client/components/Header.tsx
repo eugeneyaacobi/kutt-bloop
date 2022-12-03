@@ -124,11 +124,9 @@ const Header: FC = () => {
             pb="2px"
           >
             <Li>
-              <Link href="/report">
                 <ALink href="/report" title="Report abuse" fontSize={[14, 16]}>
                   Report
                 </ALink>
-              </Link>
             </Li>
           </Flex>
         )}
