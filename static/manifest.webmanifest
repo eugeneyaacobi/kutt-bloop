@@ -1,10 +1,10 @@
 {
-  "name": "Kutt",
-  "short_name": "Kutt",
+  "name": "Bloop",
+  "short_name": "Bloop",
   "theme_color": "#f3f3f3",
   "background_color": "#f3f3f3",
   "display": "standalone",
-  "description": "Kutt.it is a free and open source URL shortener with custom domains and stats.",
+  "description": "Bloop is a free URL shortener.",
   "Scope": "/",
   "start_url": "/",
   "icons": [

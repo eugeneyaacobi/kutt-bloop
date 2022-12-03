@@ -107,14 +107,9 @@ const Header: FC = () => {
             forButton
             isNextLink
           >
-            <Image
-              src="/images/logo.svg"
-              alt="kutt logo"
-              width={18}
-              height={24}
-            />
-            {publicRuntimeConfig.SITE_NAME}
-          </ALink>
+            <img src="/images/logo.png" alt="Bloop URL Shortening" />
+            Bloop
+          </a>
         </LogoImage>
 
         {!isMobile && (
@@ -129,25 +124,11 @@ const Header: FC = () => {
             pb="2px"
           >
             <Li>
-              <ALink
-                href="//github.com/thedevs-network/kutt"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="GitHub"
-                fontSize={[14, 16]}
-              >
-                GitHub
-              </ALink>
-            </Li>
-            <Li>
-              <ALink
-                href="/report"
-                title="Report abuse"
-                fontSize={[14, 16]}
-                isNextLink
-              >
-                Report
-              </ALink>
+              <Link href="/report">
+                <ALink href="/report" title="Report abuse" fontSize={[14, 16]}>
+                  Report
+                </ALink>
+              </Link>
             </Li>
           </Flex>
         )}
@@ -159,16 +140,11 @@ const Header: FC = () => {
         as="ul"
         style={{ listStyle: "none" }}
       >
-        {isMobile && (
-          <Li>
-            <Flex>
-              <ALink
-                href="/report"
-                title="Report"
-                fontSize={[14, 16]}
-                isNextLink
-              >
-                Report
+        <Li>
+          <Flex display={["flex", "none"]}>
+            <Link href="/report">
+              <ALink href="/report" title="Report Abuse" fontSize={[14, 16]}>
+                Report Abuse
               </ALink>
             </Flex>
           </Li>

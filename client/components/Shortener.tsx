@@ -129,9 +129,9 @@ const Shortener = () => {
 
   const title = !link && (
     <H1 fontSize={[25, 27, 32]} light>
-      Kutt your links{" "}
+      Bloop it{" "}
       <Span style={{ borderBottom: "2px dotted #999" }} light>
-        shorter
+        short
       </Span>
       .
     </H1>
