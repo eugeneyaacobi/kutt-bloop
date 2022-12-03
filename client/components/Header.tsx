@@ -109,7 +109,7 @@ const Header: FC = () => {
           >
             <img src="/images/logo.png" alt="Bloop URL Shortening" />
             Bloop
-          </a>
+          </ALink>
         </LogoImage>
 
         {!isMobile && (
